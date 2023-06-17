@@ -25,7 +25,7 @@
               <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#">
+              <a href="{{Route('welcome_page.test')}}"">
                 <span class="absolute inset-0"></span>
                 Desk and Office
               </a>
@@ -37,7 +37,7 @@
               <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#">
+              <a href="{{Route('welcome_page.test')}}">
                 <span class="absolute inset-0"></span>
                 Travel
               </a>
@@ -49,7 +49,7 @@
               <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug." class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#">
+              <a href="{{Route('welcome_page.test')}}">
                 <span class="absolute inset-0"></span>
                 Desk and Office
               </a>
@@ -61,7 +61,7 @@
               <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant." class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#">
+              <a href="{{Route('welcome_page.test')}}">
                 <span class="absolute inset-0"></span>
                 Self-Improvement
               </a>
@@ -85,7 +85,7 @@
               <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg" alt="Collection of four insulated travel bottles on wooden shelf." class="h-full w-full object-cover object-center">
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
-              <a href="#">
+              <a href="{{Route('welcome_page.test')}}">
                 <span class="absolute inset-0"></span>
                 Travel
               </a>

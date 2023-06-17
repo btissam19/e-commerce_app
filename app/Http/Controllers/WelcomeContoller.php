@@ -19,4 +19,7 @@ class WelcomeContoller extends Controller
     public function welcome_page(){
         return view('welcome_page.welcome_page'); 
     }
+    public function test(){
+        return view('welcome_page.test'); 
+    }
 }
