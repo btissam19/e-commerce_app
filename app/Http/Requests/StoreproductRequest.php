@@ -11,18 +11,23 @@ class StoreproductRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
      * Get the validation rules that apply to the request.
      *
-     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
+     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string> 
+     * 
      */
     public function rules(): array
     {
         return [
-            //
+            'product-name'=>['required','string'],
+            'product-description'=> ['required', 'string', 'max:255'],
+            'price'=> ['required', 'integer'],
+            'quantity'=>['required', 'integer'],
+            'product-image' => ['sometimes', 'file', 'mimes:jpg,jpeg,png,pdf'],
         ];
     }
 }
