@@ -34,7 +34,7 @@
                     </div> --}}
                     <div class="hidden lg:flex lg:gap-x-12 m-auto">
                       <a href="{{route('welcome_page.welcome_page')}}" class="text-sm text-indigo-600 font-semibold leading-6">Home</a>
-                      <a href="{{route('welcome_page.product')}}" class="text-sm text-indigo-600 font-semibold leading-6">Product</a>
+                      <a href="{{route('welcome_page.products')}}" class="text-sm text-indigo-600 font-semibold leading-6">Product</a>
                       <a href="{{route('welcome_page.about')}}" class="text-sm font-semibold leading-6 text-indigo-600">About Us</a>
                       <a href="{{route('welcome_page.FAQS')}}" class="text-sm font-semibold leading-6 text-indigo-600">FAQS</a>
                       {{-- <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-10 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white"> --}}

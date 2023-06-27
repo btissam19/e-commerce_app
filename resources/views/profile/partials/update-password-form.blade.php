@@ -8,6 +8,7 @@
             {{ __('Ensure your account is using a long, random password to stay secure.') }}
         </p>
     </header>
+    <img width="50" height="50" class="rounded-full" src="{{ "/storage/$user->avatar" }}" alt="user avatar" />
 
     <form method="post" action="{{ route('password.update') }}" class="mt-6 space-y-6">
         @csrf

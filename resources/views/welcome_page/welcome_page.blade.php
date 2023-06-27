@@ -10,7 +10,7 @@
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Welcome to the E-commerce for tomoroow</h1>
         <p class="mt-6 text-lg leading-8 text-gray-600">Our platform provide a lot choices for get all what you want from your home</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="{{route('welcome_page.product')}}" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">start shopping</a>
+          <a href="{{route('welcome_page.products')}}" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">start shopping</a>
         </div>
       </div>
       @yield('content')
