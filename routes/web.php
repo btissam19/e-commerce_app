@@ -7,7 +7,7 @@ use App\Http\Controllers\AvatarController;
 use App\Http\Controllers\ProductController;
 
 Route::get('/',[WelcomeContoller::class,'welcome_page'])->name('welcome_page.welcome_page');
-Route::get('/products',[WelcomeContoller::class,'product'])->name('welcome_page.products');
+Route::get('/products',[WelcomeContoller::class,'products'])->name('welcome_page.products');
 Route::get('/about',[WelcomeContoller::class,'about'])->name('welcome_page.about');
 Route::get('/FAQS',[WelcomeContoller::class,'FAQS'])->name('welcome_page.FAQS');
 Route::get('/test',[WelcomeContoller::class,'test'])->name('welcome_page.test');

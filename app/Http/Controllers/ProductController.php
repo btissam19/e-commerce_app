@@ -10,25 +10,31 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return view('product.index');
+        $product = Product::get();
+
+        if (!$product) {
+            return redirect()->route('product.create');
+        }
+    
+        return view('product.index', compact('product'));
     }
     public function create()
     {    return view('product.create');
     }
     public function store(StoreproductRequest $request)        
      {    
-        $product= product::create([
-            'product_name'=>$request->product_name,
-            'product_description'=>$request->product_description,
-            'price'=>$request->price,
-            'quantity'=>$request->quantity ,
-            'availability'=>$request->availability
-        
-        
-        ]);
-        $request->user()->product();
+      
 
-        return redirect(route('product.create'));
+  
+        $product = Product::create([
+            'product_name' => $request->product_name,
+            'product_description' => $request->product_description,
+            'price' => $request->price,
+            'quantity' => $request->quantity,
+            'availability' => $request->availability
+        ]);
+
+    return redirect()->route('product.index');
     }
     public function show(product $product)
     {

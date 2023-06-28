@@ -52,15 +52,15 @@
                     <x-input-error :messages="$errors->get('availability')" class="mt-2" />
                   </div>
                   <div class="flex items-center justify-end mt-4">
-                    <x-primary-button class="ml-3">
+                    <a href="{{Route('product.index')}}"class="inline-flex items-center px-4 py-2 bg-indigo-600  border border-transparent rounded-md font-semibold text-xs text-white dark:text-gray-800 uppercase tracking-widest hover:bg-gray-700 dark:hover:bg-white focus:bg-gray-700 dark:focus:bg-white active:bg-gray-900 dark:active:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150">
                         submit
-                    </x-primary-button>
+                    </a>
                 </div>
             </form>
         </div>
     </div>
 </x-app-layout>
-<x-app-layout>
+{{-- <x-app-layout>
     <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
       <h1 class="font-bold text-black"> your Product details</h1>
       <div class="w-full sm:max-w-xl mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
@@ -82,4 +82,4 @@
       </div>
     </div>
   </x-app-layout>
-  
+   --}}
